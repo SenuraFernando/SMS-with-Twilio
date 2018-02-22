@@ -1,5 +1,13 @@
 # Sending SMS with Twilio
 
+In this guide, we'll show you how to use Programmable SMS to send SMS and MMS messages in your web application.
+
+-C# / .NET
+-Java
+-Node.js
+-PHP
+-Python
+
 ![outgoing-sms width-800](https://user-images.githubusercontent.com/35838634/36524464-1730e8a2-17cc-11e8-836f-bfe04e294e23.png)
 
 1. To use the Twilio REST API, you need an account. 
@@ -34,4 +42,4 @@ client.messages.create(
 9.Armed with a Twilio phone number, you can now start sending messages to mobile devices.
 
 
-SMS-with-Twilio/SMS.cs
+
