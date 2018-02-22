@@ -147,7 +147,6 @@ $client->messages->create(
 # For: Python
 
 ```
-SDK Version: 5.x 6.x
 from twilio.rest import Client
 
 # put your own credentials here
