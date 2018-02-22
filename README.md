@@ -9,35 +9,6 @@ In this guide, we'll show you how to use Programmable SMS to send SMS and MMS me
 2. Signing up for a free Twilio account is easy. 
 3. Once you've signed up, head over to your Console and grab your Account SID and your Auth Token. 
 4. You will need those for the code samples below.
-
-
-```
-// Download the twilio-csharp library from twilio.com/docs/libraries/csharp
-using System;
-using Twilio;
-using Twilio.Rest.Api.V2010.Account;
-using Twilio.Types;
-
-class Example
-{
-   static void Main(string[] args)
-   {
-        // Find your Account Sid and Auth Token at twilio.com/console
-        const string accountSid = "ACc34dc91ef3e06c3ab9090d4f15f50948";
-        const string authToken = "your_auth_token";
-        TwilioClient.Init(accountSid, authToken);
-
-        var to = new PhoneNumber("+15017122661");
-        var message = MessageResource.Create(
-            to,
-            from: new PhoneNumber("+15558675310"),
-            body: "This is the ship that made the Kessel Run in fourteen parsecs?");
-
-        Console.WriteLine(message.Sid);
-   }
-}
-```
-
 5. Purchase an SMS Capable Phone Number,Sending SMS messages requires an SMS capable phone number.
 6. You can browse the available phone numbers in the Console.
 7. When you search, you can check the box to filter available numbers to those that are SMS capable
@@ -52,7 +23,6 @@ class Example
 
 # Choose a language and let's get started!
 # For: C# / .NET
-
 ```
 // Download the twilio-csharp library from twilio.com/docs/libraries/csharp
 using System;
@@ -80,7 +50,6 @@ class Example
 }
 ```
 # For: Java
-
 ```
 // Install the Java helper library from twilio.com/docs/java/install
 import com.twilio.Twilio;
@@ -103,7 +72,6 @@ public class Example {
 }
 ```
 # For: Node.js
-
 ```
 // Twilio Credentials
 const accountSid = 'ACc34dc91ef3e06c3ab9090d4f15f50948';
@@ -124,7 +92,6 @@ client.messages.create(
 );
 ```
 # For: PHP
-
 ```
 <?php
 // Get the PHP helper library from https://twilio.com/docs/libraries/php
@@ -145,7 +112,6 @@ $client->messages->create(
 );
 ```
 # For: Python
-
 ```
 from twilio.rest import Client
 
