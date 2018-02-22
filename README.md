@@ -1,4 +1,3 @@
-# SMS-with-Twilio
 # Sending SMS with Twilio
 
 ![outgoing-sms width-800](https://user-images.githubusercontent.com/35838634/36524464-1730e8a2-17cc-11e8-836f-bfe04e294e23.png)
@@ -10,7 +9,7 @@
 
 
 from twilio.rest import Client
-# put your own credentials here
+// put your own credentials here
 account_sid = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 auth_token = "your_auth_token"
 
@@ -25,3 +24,11 @@ client.messages.create(
 5. Purchase an SMS Capable Phone Number,Sending SMS messages requires an SMS capable phone number.
 6. You can browse the available phone numbers in the Console.
 7. When you search, you can check the box to filter available numbers to those that are SMS capable
+8. Buy or use the free number for demo purposes.
+
+# Demo Number 
+![capture](https://user-images.githubusercontent.com/35838634/36524803-68302aa0-17cd-11e8-825a-8a616204d9cb.JPG)
+# Buy Number 
+![buy-sms-number2 width-800](https://user-images.githubusercontent.com/35838634/36524690-e86a2384-17cc-11e8-9273-bd6af4b3af11.png)
+
+9.Armed with a Twilio phone number, you can now start sending messages to mobile devices.
