@@ -1,5 +1,5 @@
 # SMS-with-Twilio
-Sending SMS with Twilio
+##Sending SMS with Twilio
 
 1. To use the Twilio REST API, you need an account. 
 2. Signing up for a free Twilio account is easy. 
