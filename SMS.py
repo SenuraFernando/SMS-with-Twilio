@@ -7,7 +7,7 @@ auth_token = "6118b5af92d39b1deb98abe05fd23725"
 client = Client(account_sid, auth_token)
 
 message= client.messages.create(
-    to="+940722247263",
-    from_="+19728856562",
+    to="use your number given when registration",
+    from_="use the free number ",
     body="This is the ship that made the Kessel Run in fourteen parsecs?"
 )
